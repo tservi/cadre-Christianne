@@ -1,6 +1,11 @@
+
 // variables en mm
 epaisseur = 3;
-largeur = 100;
+largeur = 50;
+// cylindre intérieur
+
+translate([250,25,0])
+    cylinder(500,50,50,false);
 // premiere branche
 cube([100,largeur,epaisseur],[0,0,0]);
 translate([100,0,0])
